@@ -22,3 +22,12 @@ def cal(int val){
       }
 }
 
+def compile() {
+  if(app_lang == "nodejs") {
+    sh 'npm install'
+  }
+  if(app_lang == "maven") {
+    sh 'mvn package ; mv target/${component}-1.0.jar ${component}.jar'
+  }
+}
+
