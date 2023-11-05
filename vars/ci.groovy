@@ -33,4 +33,12 @@ def compile() {
     sh 'sleep 20'
   }
 }
+def sonar(sonarquality){
+ if (sonarquality == "AWS"){
+  echo "artifact upload to Aws done by SonarQube"
+ }
+  else{
+    echo "artifact upload to Aws--to normail done by SonarQube"
+  }
+}
 
