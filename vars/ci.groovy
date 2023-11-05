@@ -24,10 +24,13 @@ def cal(int val){
 
 def compile() {
   if(app_lang == "nodejs") {
-    sh 'npm install'
+    echo "compile is going on nodejs"
+    sh 'sleep 20'
   }
   if(app_lang == "maven") {
-    sh 'mvn package ; mv target/${component}-1.0.jar ${component}.jar'
+    //sh 'mvn package ; mv target/${component}-1.0.jar ${component}.jar'
+    echo "compile is going on maven"
+    sh 'sleep 20'
   }
 }
 
