@@ -1,3 +1,3 @@
 def name(namee){
-println(namee)
+println('myname is =%s',namee)
 }
