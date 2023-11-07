@@ -1,3 +1,3 @@
 def name(namee){
-println(name)
+println(namee)
 }
