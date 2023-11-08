@@ -58,7 +58,7 @@ def sonar(sonarquality){
     echo "artifact upload to Aws--to normail done by SonarQube"
   }
 }
-def name(name){
+def name(){
 pipeline{
 agent any
   stages{
