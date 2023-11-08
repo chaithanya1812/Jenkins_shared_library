@@ -1,4 +1,4 @@
-def main_pipeline(){
+def mainpipeline(){
     pipeline{
         agent any
         stages{
