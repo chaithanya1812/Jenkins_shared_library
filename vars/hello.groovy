@@ -1,3 +1,3 @@
-def name(namee){
-println('myname is =%s',namee)
+def name(){
+echo "this is chaithnaya"
 }
