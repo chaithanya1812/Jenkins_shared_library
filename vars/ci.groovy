@@ -1,3 +1,14 @@
+def compile(){
+if(lang=='nodejs'){
+echo "language is nodejs"
+}else{
+echo "language is not nodejs"
+}
+
+}
+
+
+
 def call(){
 pipeline{
         agent any
