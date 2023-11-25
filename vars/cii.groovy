@@ -6,3 +6,6 @@ echo "language is not nodejs"
 }
 
 }
+def hello(){
+echo "name is chaitu"
+}
