@@ -1,4 +1,4 @@
-def compile(){
+def compilee(){
 if(lang=='nodejs'){
 echo "language is nodejs"
 }else{
