@@ -1,7 +1,21 @@
-def chaitu(){
-if(env.name=="ram"){  
-echo "Hello-chaitu"
-}else{
-echo "NOT"
+def ci(){
+pipeline{
+agent any
+  stages{
+    stage('one'){
+        steps{
+         echo "Hello-world"
+        }
+    }
+    stage('two'){
+     steps{
+        echo "Hello-world-2" 
+     }
+    }
+
+
+  }
+
+
 }
 }
