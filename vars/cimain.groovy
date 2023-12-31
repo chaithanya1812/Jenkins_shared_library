@@ -3,7 +3,7 @@ def call(){
         agent any
         stages{
             stage('git clone'){
-                when{ expression { env.name.equals('chaitu') } }
+                when{ expression { name=='chaitu' } }
                 steps{
                     echo "git cloneing"
                 }
