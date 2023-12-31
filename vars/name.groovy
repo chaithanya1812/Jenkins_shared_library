@@ -1,4 +1,4 @@
-def ci_code(){
+def call(){
 pipeline{
 agent any
   stages{
