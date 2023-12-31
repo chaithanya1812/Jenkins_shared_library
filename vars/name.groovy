@@ -1,4 +1,4 @@
-def call(){
+def call_one(){
 pipeline{
 agent any
   stages{
