@@ -19,3 +19,6 @@ agent any
 
 }
 }
+def hello(){
+echo "hello-world"
+}
