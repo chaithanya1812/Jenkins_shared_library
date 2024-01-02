@@ -1,3 +1,3 @@
 def name(){
-echo "xyz = ${xyz}"
+echo "xyz = ${env.xyz}"
 }
