@@ -1,6 +1,6 @@
 def name(){
 if(env.name){
-echo "name is ${name}"
+echo "name is ${env.name}"
 }else{
 
 println("name is not declared")
