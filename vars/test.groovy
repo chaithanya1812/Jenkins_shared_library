@@ -1,3 +1,3 @@
 def name(){
-print "xyz = ${xyz}"
+echo "xyz = ${xyz}"
 }
