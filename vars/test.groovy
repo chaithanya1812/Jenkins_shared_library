@@ -1,3 +1,3 @@
 def name(){
-print "name - ${name}"
+print "name - ${env.name}"
 }
