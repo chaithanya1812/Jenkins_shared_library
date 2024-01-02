@@ -1,3 +1,5 @@
 def name(){
-echo "xyz = ${env.xyz}"
+xyz.each { namel ->
+  print "name - ${namel}"
+}
 }
