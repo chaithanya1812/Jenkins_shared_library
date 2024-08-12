@@ -29,5 +29,8 @@ def call2(){
     }
 }
 
+def call(){
+call2()
+}
 
   
