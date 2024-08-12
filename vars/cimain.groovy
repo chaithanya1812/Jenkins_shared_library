@@ -20,7 +20,7 @@ def call(){
                     echo "quality-checking"
                 }
             }
-            stage('docker-build'){
+            stage('docker-build1'){
                 steps{
                     echo "docker build is on-gonig"
                 }
