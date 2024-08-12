@@ -5,7 +5,7 @@ pipeline {
         stage('Load Parameters') {
             steps {
                 script {
-                    def params = load 'parameters.groovy'
+                    def params = load './vars/parameters.groovy'
                 }
             }
         }
