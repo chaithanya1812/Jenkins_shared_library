@@ -28,7 +28,7 @@ def call(){
           stage('docker-build'){
                 steps{
                     script {
-                        chaitu()
+                        cimain.chaitu()
                     }
                 }
             }
