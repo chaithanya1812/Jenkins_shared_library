@@ -13,6 +13,7 @@ pipeline {
             steps {
                 script {
                     echo "Parameter: ${params.name}"
+                    println params.name 
                 }
             }
         }
