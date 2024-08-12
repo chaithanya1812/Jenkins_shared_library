@@ -1,1 +1,3 @@
-name = "chaitu"
+name(){
+println ("This is load paramereete")
+}
