@@ -30,7 +30,7 @@ def call2(){
 }
 
 def call(){
-call2()
+cimain.call2()
 }
 
   
