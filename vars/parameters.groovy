@@ -1,1 +1,1 @@
-def name = "chaitu"
+name = "chaitu"
